@@ -15,7 +15,7 @@
       <a-menu v-model:selectedKeys="selectedKeys"  theme="dark" mode="inline">
         <a-menu-item key="1">
           <user-outlined />
-          <span class="nav-text"><Icon icon="icon-park-outline:workbench" class="ml-3 move-text-down" style="color: white" />工作台</span>
+          <span class="nav-text">工作台</span>
         </a-menu-item>
         <a-menu-item key="2">
           <video-camera-outlined />
@@ -51,11 +51,27 @@
         </a-menu-item>
         <a-menu-item key="10">
           <shop-outlined />
-          <span class="nav-text">nav 8</span>
+          <span class="nav-text"><Icon icon="lsicon:user-all-filled"  style="color:white" /></span>
         </a-menu-item>
         <a-menu-item key="11">
           <shop-outlined />
-          <span class="nav-text">nav 8</span>
+          <span class="nav-text"><Icon icon="ph:dots-nine"  style="color:white" /></span>
+        </a-menu-item>
+        <a-menu-item key="12">
+          <shop-outlined />
+          <span class="nav-text"><Icon icon="mdi:bell"  style="color:white" /></span>
+        </a-menu-item>
+        <a-menu-item key="13">
+          <shop-outlined />
+          <span class="nav-text"><Icon icon="mingcute:settings-5-line"  style="color:white" /></span>
+        </a-menu-item>
+        <a-menu-item key="14">
+          <shop-outlined />
+          <span class="nav-text"><Icon icon="mingcute:question-line"  style="color:white" /></span>
+        </a-menu-item>
+        <a-menu-item key="15">
+          <shop-outlined />
+          <span class="nav-text"><Icon icon="solar:user-bold"  style="color:white" /></span>
         </a-menu-item>
       </a-menu>
     </a-layout-sider>

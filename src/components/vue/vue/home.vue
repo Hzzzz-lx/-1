@@ -8,14 +8,14 @@
         position: 'fixed',
         left: 0,
         top: 0,
-        bottom: 0,
+        bottom: 0
       }"
     >
       <div class="logo" />
-      <a-menu v-model:selectedKeys="selectedKeys"  theme="dark" mode="inline">
+      <a-menu v-model:selectedKeys="selectedKeys" theme="dark" mode="inline">
         <a-menu-item key="1">
           <user-outlined />
-          <span class="nav-text"><Icon icon="icon-park-outline:workbench" class="ml-3 move-text-down" style="color: white" />工作台</span>
+          <span class="nav-text">工作台</span>
         </a-menu-item>
         <a-menu-item key="2">
           <video-camera-outlined />
@@ -61,21 +61,21 @@
     </a-layout-sider>
     <a-layout :style="{ marginLeft: '200px' }">
       <a-layout-content>
-         <div class="text-2xl ml-3 h-16 mt-5">代码仓库</div>
-         <hr/>
-        <div :style="{ padding: '24px', background: '#fff',}" class="flex">
-         <div class="w-20">最近访问</div>
-         <div class="w-20">全部仓库</div>
-         <div class="w-20">开源仓库</div>
+        <div class="text-2xl ml-3 h-16 mt-5">代码仓库</div>
+        <hr />
+        <div :style="{ padding: '24px', background: '#fff' }" class="flex">
+          <div class="w-20">最近访问</div>
+          <div class="w-20">全部仓库</div>
+          <div class="w-20">开源仓库</div>
         </div>
-        <hr/>
+        <hr />
       </a-layout-content>
     </a-layout>
   </a-layout>
 </template>
 <script setup>
 import { ref } from 'vue'
-import { Icon } from '@iconify/vue/dist/iconify.js';
+import { Icon } from '@iconify/vue/dist/iconify.js'
 const selectedKeys = ref(['4'])
 </script>
 <style scoped>
